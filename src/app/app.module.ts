@@ -50,7 +50,6 @@ import { NgxLightboxComponent } from './app-shared/image-viewer/ngx-lightbox/ngx
 //for share-this buttons
 import { SharethisAngularModule } from 'sharethis-angular';
 import { ShareThisButtonsComponent } from './app-shared/social-media-buttons/share-this-buttons/share-this-buttons.component';
-import { OurTeamComponent } from './app-basic-views/our-team/our-team.component';
 import { StarRatingComponent } from './app-shared/star-rating/star-rating.component';
 
 
@@ -73,7 +72,6 @@ import { StarRatingComponent } from './app-shared/star-rating/star-rating.compon
     NgBootstrapCarouselComponent,
     NgxLightboxComponent,
     ShareThisButtonsComponent,
-    OurTeamComponent,
     StarRatingComponent,
 
   ],

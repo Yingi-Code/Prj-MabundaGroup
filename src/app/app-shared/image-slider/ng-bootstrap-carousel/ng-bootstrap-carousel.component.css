@@ -1,12 +1,9 @@
-/* .picsum-img-wrapper {
-    max-height: 320px;
-} */
 .carousel-caption {
     max-width: 100%;
 }
 
 /* .carousel-title {
-    margin-top: 10px;
+    text-align: left;
 } */
 
 .sub-caption {
@@ -17,7 +14,7 @@ margin-bottom: 10px;
 
 .carousel-button-container {
     color: white;
-    margin-bottom: 8px;
+    margin-bottom: 30px;
     margin-top: 5px;
 }
 .carousel-button-container>.btn {

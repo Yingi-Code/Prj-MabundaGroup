@@ -36,7 +36,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     font-size: large;
-    border-top: 30px solid brown;
+    border-bottom: 5px solid orange;
 }
 
 .welcome-messsage>h1 {
@@ -186,7 +186,6 @@ a {
 */
 
 .accordion-button:not(.collapsed){
-    color: #000;
     font-weight: bold;
 }
 
@@ -197,4 +196,5 @@ a {
 
 .accordion-body {
    margin-left: 24px;
+   color: brown;
 }

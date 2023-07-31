@@ -6,8 +6,9 @@
     padding-top: 12px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    background-color: brown;
+    background-color: goldenrod;
     color: white;
+    font-weight: bold;
 }
 .sidebar-projects-list {
     margin-bottom: 10px;
@@ -21,13 +22,15 @@ a:hover {
     color: red;
 }
 
+
 .sidebar-heading-subheading {
     padding-left: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-bottom: 10px;
-    background-color: darkgray;
+    background-color: darkslategrey;
     color: white;
+    font-size: 0.8em;
 }
 
 .list-group-item {
