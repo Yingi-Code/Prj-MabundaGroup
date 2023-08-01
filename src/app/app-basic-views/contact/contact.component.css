@@ -17,6 +17,8 @@ font-weight: bold;
 .form-control, .form-select {
     padding: 8px;
     color: lightseagreen;
+    border-color: brown;
+    opacity: 0.5;
 }
 
 input::placeholder, textarea::placeholder {

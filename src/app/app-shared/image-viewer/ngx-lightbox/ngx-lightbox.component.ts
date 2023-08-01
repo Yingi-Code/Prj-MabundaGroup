@@ -12,17 +12,18 @@ export class NgxLightboxComponent {
   
   albums: any = [];
   private _images = [
-    { src: "assets/gallery/1.jpg" },
-    // { src: "assets/gallery/3.jpg" },
-    // { src: "assets/gallery/4.jpg" },
-    { src: "assets/gallery/7.jpg", caption: "Excited for strawberry harvest" },
-    { src: "assets/gallery/8.jpg", caption: "Before the harvest starts" },
-    { src: "assets/gallery/10.jpg", caption: "Waiting for eating" },
-    { src: "assets/gallery/11.jpg", caption: "Testing the sweetness" },
-    { src: "assets/gallery/12.jpg" },
-    { src: "assets/gallery/13.jpg" },
-    { src: "assets/gallery/14.jpg" },
-    // { src: "assets/gallery/17.jpg" },
+    { src: "assets/gallery/1.jpeg" },
+    // { src: "assets/gallery/2.jpeg", caption: "Excited for strawberry harvest" },
+    { src: "assets/gallery/3.jpeg", caption: "Before the harvest starts" },
+    { src: "assets/gallery/4.jpeg", caption: "Waiting for eating" },
+    { src: "assets/gallery/5.jpeg", caption: "Testing the sweetness" },
+    { src: "assets/gallery/6.jpeg" },
+    { src: "assets/gallery/7.jpeg" },
+    { src: "assets/gallery/8.jpeg" },
+    { src: "assets/gallery/9.jpeg" },
+    { src: "assets/gallery/10.jpeg" },
+    // { src: "assets/gallery/11.jpeg" },
+    { src: "assets/gallery/12.jpeg" },
   ];
 
   public get images() {
@@ -49,7 +50,7 @@ export class NgxLightboxComponent {
     _lightboxConfig.enableTransition = true;
     _lightboxConfig.showZoom = false;
     _lightboxConfig.showRotate = false;
-    _lightboxConfig.showDownloadButton = true;
+    _lightboxConfig.showDownloadButton = false;
     _lightboxConfig.containerElementResolver = () => document.body;
    
     while (this.i < this.images.length) {

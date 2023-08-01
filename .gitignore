@@ -26,5 +26,6 @@ pubspec.lock
 .vscode/tasks.json
 *.swo
 *.swp
+*.htaccess
 modules/.settings
 module

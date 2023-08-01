@@ -1,5 +1,9 @@
 //for data-binding - using ngModel
 import { NgModule } from '@angular/core';
+
+//eliminates 404 error when refresh the hosted page
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+
 //for reactive forms
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -51,6 +55,7 @@ import { NgxLightboxComponent } from './app-shared/image-viewer/ngx-lightbox/ngx
 import { SharethisAngularModule } from 'sharethis-angular';
 import { ShareThisButtonsComponent } from './app-shared/social-media-buttons/share-this-buttons/share-this-buttons.component';
 import { StarRatingComponent } from './app-shared/star-rating/star-rating.component';
+import { GalleryComponent } from './app-basic-views/gallery/gallery.component';
 
 
 @NgModule({
@@ -73,6 +78,7 @@ import { StarRatingComponent } from './app-shared/star-rating/star-rating.compon
     NgxLightboxComponent,
     ShareThisButtonsComponent,
     StarRatingComponent,
+    GalleryComponent
 
   ],
   imports: [
@@ -110,6 +116,7 @@ import { StarRatingComponent } from './app-shared/star-rating/star-rating.compon
   ],
   providers: [
     NgbCarouselConfig, 
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
     provideClientHydration()
   ],
   bootstrap: [AppComponent]

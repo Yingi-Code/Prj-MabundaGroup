@@ -7,6 +7,7 @@ import { ServicesComponent } from './app-basic-views/services/services.component
 import { ErrorComponent } from './app-basic-views/error/error.component';
 import { DeactivateRoute } from './app-shared/routes-guard/deactivate-route';
 import { FaqComponent } from './app-basic-views/faq/faq.component';
+import { GalleryComponent } from './app-basic-views/gallery/gallery.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent, title: "Mabunda Group - Our Services" },
   { path: 'faq', component: FaqComponent, title: "Mabunda Group- FAQs" },
   { path: 'contact', component: ContactComponent, canDeactivate: [DeactivateRoute], title: "Mabunda Group - Contact Us" },
-  
+  { path: 'gallery', component: GalleryComponent, title: "Mabunda Group - Gallery" },
   // redirectTo - Error page
   { path: '**', component: ErrorComponent, title: "Mabunda Group- Not found" },
 ];

@@ -20,13 +20,13 @@ export class AppComponent implements OnInit {
     this.metaTagService.updateTag(
       {
         name: 'description',
-        content: 'We provide professional legal representation for services such as Road Accident Fund Claims, Medical Negligence, Silicosis, and related claims to our client',
+        content: 'We assist our clients to comply with the Environmental Health and Safety legislation. We also assist our clients to comply with the Construction Health and Safety legislation. We do audits and TrainingS for Food Safety for various sectors, ranging from private to public.',
       });
 
     this.metaTagService.addTags([
       {
         name: 'keywords',
-        content: 'KM Attorneys Inc, KM. Attorneys Inc, K.M. Attorneys Inc, KM. Attorneys. Inc, K.M. Attorneys. Inc, Monakali Attorneys, , Monakali, Attorneys, EC Attorneys, Eastern Cape Attorneys, Attorneys in Eastern Cape, Attorneys in EC, Legal, Legal Attorneys',
+        content: 'Mabunda, Mabunda Group, MabundaGroup, Martin Mabunda, Ntsako Mabunda, Mabunda EHS, EHS, Mabunda OHS, Mabunda Food Safety, Mabunda Engineering, OHS, Engineering, Mabunda Group Engineering, Mabunda Group Engineering services, Mabunda Group telecoms, Mabunda Group fire, Mabunda Group fire services, Mabunda Environmental Health and Safety , Mabunda Environmental Health and Safety, Occupational Health and Safety, Construction Health and Safety , Mabunda Occupational Health and Safety, Occupational Health and Safety, Mabunda Construction Health and Safety, Health and Safety, Health and Safety Trainings,',
       },
       {
         name: 'robots',

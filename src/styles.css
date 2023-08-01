@@ -81,7 +81,8 @@ body {
 
 .form-control.ng-touched.ng-invalid {
     /* border: 2px solid red; */
-    border-left: 6px solid #42A948;
+    border-left: 14px solid #42A948;
+    opacity: 1;
 }
 
 .form-control:focus {
@@ -114,53 +115,8 @@ body {
     color: white;
 }
 
-.sidebar-description {
-    margin-left: 0px;
-}
-
-.sidebar-button {
-    margin-top: 7px;
-    background-color: black;
-    color: white;
-}
-
-.sidebar-button:hover {
-    color: white;
-}
 
 /*
----------------------------------------
- From http-data component
----------------------------------------
-*/
-
-.list-group {
-    margin-bottom: 10px;
-}
-
-#post-header {
-    background-color: #FEF;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.list-content-formatting {
-    text-align: left;
-}
-
-.list-content-formatting-btn:hover {
-    background-color: lightgray;
-    border: none;
-}
-
-.item-deco {
-    border-left: 1px solid red;
-}
-
-/* 
 ---------------------------------------
  For toast 
 ---------------------------------------

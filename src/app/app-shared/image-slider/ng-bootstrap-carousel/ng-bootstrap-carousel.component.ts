@@ -13,11 +13,26 @@ import { fadeInOutCarousel } from '../../animations/animations';
 export class NgBootstrapCarouselComponent {
 
   images = [
-    { title: 'Environmental Health & Safety', short: 'We are geared to assist our clients to comply with OHS, Environmental and Food Safety.', src: "../assets/banners/1.jpg" },
-    { title: 'Food Safety ', short: 'Addressing Food Safety issues with all clients at all levels, at the language that they understand well.', src: "../assets/banners/2.jpg" },
     {
-      title: 'Electrical Engineering', short: 'Consultancy work in a wide range of business sectors include Construction, Telecommunications, etc', src: "../assets/banners/3.jpg" },
-    { title: 'Fire Services', short: 'We do servicing and installation of fire fighting equipment', src: "../assets/banners/4.jpg" }
+      title: 'EHS Services',
+      short: 'We are geared to assist our clients to comply with OHS, Environmental and Food Safety.',
+      src: "../assets/banners/a.jpg"
+    },
+    {
+      title: 'Food Safety',
+      short: 'Addressing Food Safety issues with all clients at all levels, at the language that they understand well.',
+      src: "../assets/banners/b.jpg"
+    },
+    {
+      title: 'Electrical Engineering',
+      short: 'Consultancy work in a wide range of business sectors include Construction, Telecommunications, etc',
+      src: "../assets/banners/c.jpg"
+    },
+    {
+      title: 'Fire Services',
+      short: 'We do servicing and installation of fire fighting equipment',
+      src: "../assets/banners/d.jpg"
+    }
   ];
 
   constructor(config: NgbCarouselConfig) {
