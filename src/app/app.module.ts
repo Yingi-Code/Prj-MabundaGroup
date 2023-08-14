@@ -2,7 +2,7 @@
 import { NgModule } from '@angular/core';
 
 //eliminates 404 error when refresh the hosted page
-import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+// import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 
 //for reactive forms
 import { ReactiveFormsModule } from '@angular/forms';
@@ -116,7 +116,7 @@ import { GalleryComponent } from './app-basic-views/gallery/gallery.component';
   ],
   providers: [
     NgbCarouselConfig, 
-    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    // { provide: LocationStrategy, useClass: HashLocationStrategy },
     provideClientHydration()
   ],
   bootstrap: [AppComponent]

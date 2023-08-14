@@ -17,13 +17,15 @@ export class NgxLightboxComponent {
     { src: "assets/gallery/3.jpeg", caption: "Before the harvest starts" },
     { src: "assets/gallery/4.jpeg", caption: "Waiting for eating" },
     { src: "assets/gallery/5.jpeg", caption: "Testing the sweetness" },
-    { src: "assets/gallery/6.jpeg" },
+    // { src: "assets/gallery/6.jpeg" },
     { src: "assets/gallery/7.jpeg" },
     { src: "assets/gallery/8.jpeg" },
     { src: "assets/gallery/9.jpeg" },
     { src: "assets/gallery/10.jpeg" },
-    // { src: "assets/gallery/11.jpeg" },
+    { src: "assets/gallery/11.jpeg" },
     { src: "assets/gallery/12.jpeg" },
+    { src: "assets/gallery/13.jpeg" },
+    { src: "assets/gallery/14.jpeg" },
   ];
 
   public get images() {
